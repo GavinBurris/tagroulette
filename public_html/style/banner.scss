@@ -1,0 +1,30 @@
+#banner {
+	width: 100%;
+	border-bottom: 1px solid #D8D8D8;
+	ul {
+		margin: -1em 0em;
+		list-style: none;
+		text-align: center;
+		li {
+			display: inline;
+			a {
+				text-decoration: none;
+				display: inline-block;
+				color: #00BFFF;
+				font-weight: 200;
+				font-size: 150%;
+				padding: 0em .5em;
+			}
+			a:hover {
+				cursor: pointer;
+				border-bottom: 2px solid #00BFFF;
+			}
+			h1 {
+				padding: 0em 1em;
+				font-size: 250%;
+				font-weight: 300;
+				display: inline-block;
+			}
+		}
+	}
+}

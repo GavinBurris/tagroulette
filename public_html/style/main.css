@@ -1,0 +1,82 @@
+body {
+	-webkit-font-smoothing: antialisased;
+	font-family: "Helvetica Neue", Helvetica, Sans-serif;
+	max-width: 100%;
+	padding: 0px;
+	margin: 0px; }
+#header {
+	min-height: calc(100% - 14em);
+	width: 75%;
+	max-width: 1200px;
+	 margin-top: 13em;
+	margin-right: auto;
+	 margin-left: auto; }
+#header h1 {
+		text-align: center;
+		color: #00BFFF;
+		font-size: 450%;
+		font-weight: 100;
+		letter-spacing: 0.1em;
+		padding-bottom: 3em;
+		border-bottom: 1px solid #BDBDBD; }
+		#header h1 sup {
+		  padding: 0.1em;
+		letter-spacing: 0em;
+		  font-size: 35%;
+		text-align: center;
+		  background-color: #2E9AFE;
+		width: 2.5em;
+		  color: white;
+		border-radius: .25em;
+		  font-weight: 200; }
+  #header p {
+		clear: both;
+		line-height: 1.75em;
+		color: #424242;
+		margin: 0 auto;
+		width: 650px;
+		padding-bottom: 5em;
+		font-weight: 200; }
+
+  nav {
+	 display: none; }
+  nav ul {
+		list-style-type: none; }
+		nav ul li a {
+		  color: black;
+		text-decoration: none; }
+
+  #sign_up {
+	 background: url("../img/room_background.jpg") center center no-repeat;
+  background-size: cover;
+	 width: 100%;
+  height: 100%;
+	 color: white;
+	text-align: center; }
+	 #sign_up h1 {
+	 font-size: 350%;
+	 padding: 4em 3em 1.5em 3em;
+	 font-weight: 100; }
+#sign_up a {
+		margin: 0em 2.5em;
+		background: rgba(0, 0, 0, 0.2);
+		font-weight: 200;
+		text-decoration: none;
+		color: white;
+		border: 1px solid white;
+		padding: 0.5em 1.5em;
+		font-size: 200%; }
+	#sign_up a:hover {
+	cursor: pointer;
+	color: #01A9DB;
+	background: rgba(0, 0, 0, 0.6);
+	border: 1px solid #01A9DB; }
+
+#footer {
+  background: #D8D8D8;
+	font-size: 125%;
+  text-align: center;
+	 font-weight: 100;
+  padding: 4em; }
+
+  /*# sourceMappingURL=main.css.map */
