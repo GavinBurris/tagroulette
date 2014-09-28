@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+  body {
+      width: 100%; }
+
+    #header {
+    width: 100%;
+    min-height: 95%; }
+    #header h1 {
+      margin: 0 auto;
+        width: 80%;
+      font-size: 300%;
+        padding-bottom: 5em; }
+    #header p {
+      margin: 5em auto 0em auto;
+        width: 90%;
+      height: 0em; }
+
+    #sign_up {
+    margin-top: 15em;
+    padding-bottom: 2em; }
+    #sign_up h1 {
+      padding: 4em 0em 2em 0em;
+        font-size: 200%; }
+    #sign_up a {
+      font-size: 150%;
+        margin-top: 2em;
+      display: block;
+        padding: .75em 1.5em; }
+
+  #footer {
+      font-size: 100%; } }
+  @media screen and (max-width: 350px) {
+    #header h1 {
+    font-size: 250%;
+    padding-bottom: 4em; }
+
+  #sign_up h1 {
+      padding: 3em 0em 1.5em 0em; }
+    #sign_up a {
+    margin-top: 0.65em;
+    padding: .4em 1.5em; } }
+
+/*# sourceMappingURL=mobile_main.css.map */
