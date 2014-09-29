@@ -20,6 +20,7 @@
 --
 DROP DATABASE IF EXISTS `albany`;
 CREATE DATABASE `albany`;
+USE `albany`;
 
 DROP TABLE IF EXISTS `users`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
