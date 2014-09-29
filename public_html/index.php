@@ -5,7 +5,8 @@ include("header.php");
 	<div id="header">
 		<h1>TagRoulette<sup>Beta</sup></h1>
 		<p>
-			TagRoulette is a new type of social media. Each member gets a pesonal account with every picture they have ever taken. Each friend will be ask to tag a friend and that friend to tag another.
+			TagRoulette is a new type of social media. Test Test Test test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   
+			TagRoulette is a new type of social media. Test Test Test test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   test   
 
 		</p>
 	</div>
