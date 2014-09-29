@@ -10,9 +10,12 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['e
 	$sex = $_POST['sex'];
 	$query = "INSERT INTO users (first_name, last_name, email, password, sex) VALUES (\"$first_name\", \"$last_name\", \"$email\", \"$password\", \"$sex\")"; 
 	$result = $db->query($query);
+	$userid = "SELECT userid FROM users WHERE email = \"$email\"";
+	$getid = $db->query($userid);
+	$row = $getid->fetch_assoc();
 	if ($result) {
-		mail("$email", "TagRoulette", "Test");
-		echo $email;
+		session_start();
+		$_SESSION['userid'] = $row['userid'];
 		header("location: ./public_html/home.php");
 	} else {
 		header("location: ./public_html/sign_up.php?error=datbase_error");
