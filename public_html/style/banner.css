@@ -23,4 +23,41 @@
         font-weight: 300;
         display: inline-block; }
 
+#m_banner {
+  display: none; }
+
+@media screen and (max-width: 580px) {
+  #banner {
+    display: none; }
+
+  #m_banner {
+    overflow: none;
+    display: block; }
+    #m_banner h1 {
+      text-align: center;
+      font-size: 350%;
+      color: #000000;
+      border-bottom: 1px solid #B8B8B8;
+      padding: 0em;
+      font-weight: 200; }
+    #m_banner ul {
+      margin-top: -1.75em;
+      list-style: none;
+      border-bottom: 1px solid #B8B8B8;
+      padding-bottom: 0.25em;
+      height: 2em;
+      overflow-y: auto; }
+      #m_banner ul li {
+        text-align: center;
+        display: inline; }
+        #m_banner ul li a {
+          display: inline-block;
+          margin-right: 0.75em;
+          font-size: 125%;
+          text-decoration: none;
+          color: #00BFFF;
+          border-bottom: 1px solid #FFFFFF; }
+        #m_banner ul li a:hover {
+          border-bottom: 1px solid #00BFFF; } }
+
 /*# sourceMappingURL=banner.css.map */

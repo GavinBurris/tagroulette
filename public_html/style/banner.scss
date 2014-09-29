@@ -28,3 +28,46 @@
 		}
 	}
 }
+#m_banner {
+	display: none;
+}
+@media screen and (max-width: 580px) {
+	#banner {
+		display: none;
+	}
+	#m_banner {
+		overflow: none;
+		display: block;
+		h1 {
+			text-align: center;
+			font-size: 350%;
+			color: #000000;
+			border-bottom: 1px solid #B8B8B8;
+			padding: 0em;
+			font-weight: 200;
+		}
+		ul {
+			margin-top: -1.75em;
+			list-style: none;
+			border-bottom: 1px solid #B8B8B8;
+			padding-bottom: 0.25em;
+			height: 2em;
+			overflow-y: auto;
+			li {
+				text-align: center;
+				display: inline;
+				a {
+					display: inline-block;
+					margin-right:0.75em;
+					font-size: 125%;
+					text-decoration: none;
+					color: #00BFFF;
+					border-bottom: 1px solid #FFFFFF;
+				}
+				a:hover {
+					border-bottom: 1px solid #00BFFF;
+				}
+			}
+		}
+	}
+}
