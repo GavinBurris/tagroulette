@@ -24,9 +24,18 @@ body {
 	margin-top: 2em;
 	display: block;
 	padding: .75em 1.5em; }
+.logo {
+	margin-top: 1.5em;
+	font-size: 300%;
+	margin-left: 0.4em;
+}
 #footer {
+	max-width: 100%;
 	font-size: 100%; } }
 @media screen and (max-width: 350px) {
+.logo {
+	font-size: 250%;
+}
 #header h1 {
 	font-size: 250%;
 	padding-bottom: 4em; }
@@ -35,5 +44,4 @@ body {
 #sign_up a {
 	margin-top: 0.65em;
 	padding: .4em 1.5em; } }
-
 /*# sourceMappingURL=mobile_main.css.map */

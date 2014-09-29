@@ -13,12 +13,12 @@
         color: #00BFFF;
         font-weight: 200;
         font-size: 150%;
-        padding: 0em .5em; }
+        padding: 0em 1em; }
       #banner ul li a:hover {
         cursor: pointer;
         border-bottom: 2px solid #00BFFF; }
       #banner ul li h1 {
-        padding: 0em 1em;
+        padding: 0em 1.5em;
         font-size: 250%;
         font-weight: 300;
         display: inline-block; }

@@ -2,9 +2,100 @@
 	margin: 1em auto;
 	text-align: center;
 	height: 500px;
-	border: 1px solid;
-	width: 450px;
-	h1 {
-		font-weight: 200;
+	width: 400px;
+	padding: 0 25px;
+	.forgot_password {
+		color: #A4A4A4;
+		text-decoration: none;
+		display: block;
+		margin: 0 auto;
+		width: 10em;
+		font-weight: 100;
+	}
+	.forgot_password:hover {
+		color: #6E6E6E;
+		text-decoration: underline;
+	}
+	.sign_up {
+		font-size: 125%;
+		margin-top: 0.4em;
+		font-weight: 100;
+		border: 1px solid #00BFFF;
+		float: right;
+		text-decoration: none;
+		color: #00BFFF;
+		padding: .2em;
+		border-radius: .2em;
+	}
+	.sign_up:hover {
+		border: 1px solid #01A9DB;
+		color: #01A9DB;
+		background: rgba(200, 200, 200, .1);
+	}
+	h3 {
+		display: inline;
+		float: left;
+		color: #848484;
+		font-size: 100%;
+		font-weight: 100;
+	}
+	form {
+		input[type=text], input[type=password] {
+			background: #E6E6E6;
+			width: 100%;
+			border: none;
+			padding: 0.5em;
+			font-size: 150%;
+			border-radius: .25em;
+		}
+		input[type=password] {
+			margin-top: 1em;
+		}
+		input[type=text]:focus, input[type=password]:focus {
+			background: #FFFFFF;
+			box-shadow: inset 0em 0em 0.2em rgba(0, 0, 0, .5);
+		}
+		input[type=submit] {
+			border-radius: .25em;
+			color: white;
+			border: none;
+			margin-top: 1em;
+			padding: 0.5em 1em;
+			font-size: 150%;
+			width: 100%;
+			background: #00BFFF;
+		}
+		input[type=submit]:hover {
+			cursor: pointer;
+			box-shadow: inset 0em 0em 0.2em rgba(0, 0, 0, .5);
+		}
+		input[name=first_name], input[name=last_name] {
+			margin-bottom: 0.2em;
+			float: left;
+			width: 49%;
+		}
+		input[name=last_name] {
+			float: right;
+		}
+		.password_sign_up{
+			margin-top: 0.2em !important;
+		}
+		input[type=radio] {
+			border: 1px solid #6E6E6E;
+			width: 25px;
+			height: 25px;
+			border-radius: 5px;
+		}
+		input[type=radio]:checked {
+			background: #000000;
+		}
+	}
+}
+@media screen and (max-width: 580px) {
+	#login {
+		width: 90%;
+		padding: 0 5%;
+		.sign_up {
+		}
 	}
 }
