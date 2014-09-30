@@ -40,13 +40,30 @@
       border-bottom: 1px solid #B8B8B8;
       padding: 0em;
       font-weight: 200; }
+    #m_banner h2 {
+      width: 5em;
+      color: white;
+      text-align: center;
+      background: #00BFFF;
+      padding: 0.5em 0em;
+      position: fixed;
+      bottom: 0em;
+      border-radius: 0em 0.25em 0.25em 0em; }
+    #m_banner h3 {
+      position: absolute;
+      top: -3em;
+      height: 2em;
+      width: 100%;
+      background: red; }
     #m_banner ul {
+      text-align: center;
       margin-top: -1.75em;
       list-style: none;
       border-bottom: 1px solid #B8B8B8;
       padding-bottom: 0.25em;
       height: 2em;
-      overflow-y: auto; }
+      overflow-y: auto;
+      display: none; }
       #m_banner ul li {
         text-align: center;
         display: inline; }

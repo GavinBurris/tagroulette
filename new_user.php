@@ -15,7 +15,11 @@ if (isset($_POST['first_name']) && isset($_POST['last_name']) && isset($_POST['e
 	$row = $getid->fetch_assoc();
 	if ($result) {
 		session_start();
+		$userid = $row['userid'];
 		$_SESSION['userid'] = $row['userid'];
+		mkdir("./public_html/users/$userid");
+		mkdir("./public_html/users/$userid/imgs/");
+		mkdir("./public_html/users/$userid/posts/");
 		header("location: ./public_html/home.php");
 	} else {
 		header("location: ./public_html/sign_up.php?error=datbase_error");
